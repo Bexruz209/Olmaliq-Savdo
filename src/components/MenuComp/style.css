@@ -1,0 +1,111 @@
+.box {
+    width: 1120px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.a{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Group{
+    width: 100%;
+}
+
+.box-div{
+    display: flex;
+    gap: 20px;
+    align-items: center ;
+}
+
+.box-di{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.box-icons {
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fa-heart {
+   color: #444444;
+}
+
+.icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icn{
+    width: 37px;
+    height: 37px;
+    /* text-align: center; */
+    border-radius: 5px;
+    padding: 8px 10px 10px 10px;
+    font-size: 18px;
+    color: #ffff;
+    gap: 10px;
+    background: #2DA55F;
+}
+
+.text-icon {
+    color: #444444;
+}
+
+.right-box-icon{
+    width: 180px;
+    display: flex;
+    gap: 25px;
+    /* justify-content: space-between; */
+}
+
+
+.head-inp{
+    border: 1px solid #2DA55F;
+    outline: none;
+    padding: 10px 300px 10px 9px;
+    border-radius: 5px 0px 0px 5px;
+    color: #444444;
+    font-weight: 700;
+}
+
+.box-btn{
+    width: 37px;
+    height: 37px;
+    background: #2DA55F;
+    color: #ffff;
+    font-size: 16px;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+    border: 1px solid #2DA55F;
+}
+
+.box-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    gap: 8px;
+    border: 1px solid #2DA55F;
+    background: #2DA55F;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bot-fnt{
+    font-size: 20px;
+}
+
+.bot-font{
+    font-size: 10px;
+}

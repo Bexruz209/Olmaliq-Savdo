@@ -1,0 +1,37 @@
+.container{
+    background: #2DA55F;
+}
+
+.navbar{
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+.nav-text{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.right-text{
+    text-align: center;
+}
+
+.til{
+    background: #2DA55F;
+    border: none;
+    color: #FFFF;
+    outline: none;
+}
+
+.tio{
+    outline: none;
+    border: none;
+    color: #000000;
+    background: #FFFFFF;
+}
