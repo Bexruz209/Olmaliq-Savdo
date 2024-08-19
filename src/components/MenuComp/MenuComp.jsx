@@ -2,6 +2,7 @@ import React from 'react'
 import logo from "../../assent/logo.svg"
 import Group from "../../assent/Group.svg"
 import "./style.css"
+import FrameCompo from '../FrameCompo/FrameCompo'
 
 function MenuComp() {
     return (
@@ -51,6 +52,7 @@ function MenuComp() {
                 <div className="a">
                     <img src={Group} alt="" className='Group' />
                 </div>
+                <FrameCompo />
             </div>
         </>
     )

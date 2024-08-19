@@ -1,0 +1,53 @@
+.note{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.note1{
+    width: auto;
+    height: 70px;
+    padding: 10px;
+    gap: 10px;
+    background: #F8F8F8;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.note1_text{
+    font-weight: 600;
+    color: black;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.note2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.note_text{
+    font-weight: 700;
+    font-size: 17px;
+    color: #333333;
+}
+
+.note_text2{
+    font-weight: 600;
+    font-size: 14px;
+    color: #2DA55F;
+    border-bottom: 1px solid #2DA55F;
+}
+
+.g{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
