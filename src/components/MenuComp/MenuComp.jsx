@@ -3,8 +3,10 @@ import logo from "../../assent/logo.svg"
 import Group from "../../assent/Group.svg"
 import "./style.css"
 import FrameCompo from '../FrameCompo/FrameCompo'
+// import { cards } from "../../utils.js"
 
 function MenuComp() {
+    // console.log(cards);
     return (
         <>
             <div className="box">
@@ -54,7 +56,25 @@ function MenuComp() {
                 </div>
                 <FrameCompo />
             </div>
+            {/* <div className="product-cards">
+                {cards.map(({ product_name, product_title, product_price, product_sale, product_image }) => (
+                    <div className="product-card">
+                        <img src={product_image} alt="" className='product-card-img' />
+                        <h4 className='product-header'>{product_name}</h4>
+                        <p style={{ textAlign: "left" }} className='product-info'>{product_title}</p>
+                        <div className="product-price">{product_price}</div>
+                        <div className="month-price">
+                            {product_sale}
+                        </div>
+                        <button className="product-card-btn">
+                            <i className="fa-solid fa-cart-plus"></i>
+                            {t('savatcha.savat')}</button>
+
+                    </div>
+                ))}
+            </div> */}
         </>
+        
     )
 }
 
