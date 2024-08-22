@@ -1,8 +1,17 @@
 {
     "thanks": {
-        "text": "Thank you"
+        "1": "Monday",
+        "2": "Вторник",
+        "3": "Wednesday",
+        "4": "Thursday",
+        "5": "Friday",
+        "6": "Saturday",
+        "7": "Sunday"
     },
     "name": {
-        "last_text": "For watching this video"
+        "last_text": "Product search...",
+        "love": "Beloved",
+        "Comparison": "Comparison",
+        "Basket": "Basket"
     }
 }

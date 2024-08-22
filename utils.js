@@ -1,4 +1,3 @@
-import iphone from "./assent/iphone.svg"
 
 export let obj_card = [
     {
@@ -7,5 +6,5 @@ export let obj_card = [
         product_price: "13 670 000 sum" ,
         product_sale:  "245 000 sum / 24 oy",
         product_image: iphone
-    },
+    }
 ]

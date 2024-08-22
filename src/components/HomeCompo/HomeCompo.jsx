@@ -13,14 +13,14 @@ function HomeCompo() {
     function handleClick(lang) {
         i18next.changeLanguage(lang)
     }
+    // console.log(thanks.text);
     
-
     return (
         <>
             <div className='container'>
                 <nav className='navbar'>
                     <div className="left-text">
-                        <p className="nav-text">{time}:{minute < 10 ? "0" + minute : minute}  {week === 1 ? "Dushanba" : week === 2 ? "Sashanba" : week === 3 ? "Chorshanba" : week === 4 ? "Payshanba" : week === 5 ? "Juma" : week === 6 ? "Shanba" : week === 7 ? "Yakshanba" : "err"}</p>
+                        <p className="nav-text">{time}:{minute < 10 ? "0" + minute : minute}  {week === 1 ? t('thanks.1') : week === 2 ? t('thanks.2') : week === 3 ? t('thanks.3') : week === 4 ? t('thanks.4') : week === 5 ? t('thanks.5') : week === 6 ? t('thanks.6') : week === 7 ? t('thanks.7') : "err"}</p>
                     </div>
                     <div className="right-text">
                         <select className='til' onChange={(e) => handleClick(e.target.value)}>
@@ -28,12 +28,12 @@ function HomeCompo() {
                             <option className='tio' value="eng">English</option>
                             <option className='tio' value="rus">Russia</option>
                         </select>
-                        <h3>{t('thanks.text')}</h3>
+                        {/* <h3>{t('thanks.1')}</h3> */}
                         {/* <p className="nav-text"> <i class="fa-solid fa-caret-down"></i></p> */}
 
                     </div>
                 </nav>
-            </div>
+            </div>  
             <MenuComp />
         </>
     )

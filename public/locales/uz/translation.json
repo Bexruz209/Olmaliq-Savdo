@@ -1,8 +1,17 @@
 {
     "thanks": {
-        "text": "Raxmat"
+        "1": "Dushanba",
+        "2": "Sashanba",
+        "3": "Chorshanba",
+        "4": "Payshanba",
+        "5": "Juma",
+        "6": "Shanba",
+        "7": "Yakshanba"
     },
     "name": {
-        "last_text": "Bu video siz uchun"
+        "last_text": "Mahsulot izlash...",
+        "love": "Sevimli",
+        "Comparison": "Taqqos",
+        "Basket": "Savat"
     }
 }

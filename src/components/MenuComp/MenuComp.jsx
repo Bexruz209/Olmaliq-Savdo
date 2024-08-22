@@ -1,11 +1,14 @@
 import React from 'react'
 import logo from "../../assent/logo.svg"
+import i18next from "i18next";
+import { useTranslation } from 'react-i18next';
 import Group from "../../assent/Group.svg"
 import "./style.css"
 import FrameCompo from '../FrameCompo/FrameCompo'
 // import { cards } from "../../utils.js"
 
 function MenuComp() {
+    const { t } = useTranslation();
     // console.log(cards);
     return (
         <>
@@ -22,7 +25,7 @@ function MenuComp() {
                         </div>
                     </div>
                     <div className="box-inp">
-                        <input type="text" placeholder='Mahsulot izlash...' className="head-inp" />
+                        <input type="text" placeholder={t('name.last_text')} className="head-inp" />
                         <button className='box-btn'><i class="fa-solid fa-magnifying-glass"></i></button>
                     </div>
                     <div className="right-box-icon">
@@ -30,19 +33,19 @@ function MenuComp() {
                             <div className="icon">
                                 <i className="fa-solid fa-heart"></i>
                             </div>
-                            <p className="text-icon">Sevimli</p>
+                            <p className="text-icon">{t('name.love')}</p>
                         </div>
                         <div className="box-icons">
                             <div className="icon">
                                 <i className="fa-solid fa-code-compare"></i>
                             </div>
-                            <p className="text-icon">Taqqos</p>
+                            <p className="text-icon">{t('name.Comparison')}</p>
                         </div>
                         <div className="box-icons">
                             <div className="icon">
                                 <i className="fa-solid fa-cart-shopping"></i>
                             </div>
-                            <p className="text-icon">Savat</p>
+                            <p className="text-icon">{t('name.Basket')}</p>
                         </div>
                         <div className="box-icon">
                             <div className="icn">
