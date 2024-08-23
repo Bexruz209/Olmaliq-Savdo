@@ -11,7 +11,7 @@ import apple from "../../assent/apple.svg"
 import lenove from "../../assent/lonove.svg"
 import hp from "../../assent/hp.svg"
 import samsung from "../../assent/samsung.svg"
-
+import { useTranslation } from 'react-i18next';
 
 
 
@@ -19,41 +19,43 @@ import samsung from "../../assent/samsung.svg"
 
 
 import "./style.css"
+import CardCompo from '../CardCompo/CardCompo';
 
 export default function FrameCompo() {
+    const { t } = useTranslation();
     return (
         <>
             <div className="Cont">
                 <div className="note">
                     <div className="note1">
                         <img src={Telefon} alt="" />
-                        <p className='note1_text'>Telefon  va <br /> Smartfonlar</p>
+                        <p className='note1_text'>{t('botton.phone')}</p>
                     </div>
                     <div className="note1">
                         <img src={Noutbuk} alt="" />
-                        <p className='note1_text'>Orgtexnika va <br /> Kompyuterlar</p>
+                        <p className='note2_text'>{t('botton.book')}</p>
                     </div>
                     <div className="note1">
                         <img src={Televizor} alt="" />
-                        <p className='note1_text'>Televizor va <br />Videotexnikalar</p>
+                        <p className='note1_text'>{t('botton.tv')}</p>
                     </div>
                     <div className="note1">
                         <img src={Qiz} alt="" />
-                        <p className='note1_text'>Chiroy va <br />go'zallik</p>
+                        <p className='note3_text'>{t('botton.lave')}</p>
                     </div>
                     <div className="note1">
                         <img src={Pilisos} alt="" />
-                        <p className='note1_text'>Maishiy <br />texnikalar</p>
+                        <p className='note3_text'>{t('botton.pli')}</p>
                     </div>
                     <div className="note1">
                         <img src={Pilisoss} alt="" />
-                        <p className='note1_text'>Avto <br />jihozlar</p>
+                        <p className='note4_text'>{t('botton.auto')}</p>
                     </div>
                 </div>
             </div>
             <div className="note2">
-                <p className='note_text'>Brandlar</p>
-                <p className='note_text2'>Brandlar</p>
+                <p className='note_text'>{t('botton.Brands')}</p>
+                <p className='note_text2'>{t('botton.Brands')}</p>
             </div>
             <div className="g">
                 <img src={lg} alt="" />
@@ -63,6 +65,7 @@ export default function FrameCompo() {
                 <img src={hp} alt="" />
                 <img src={samsung} alt="" />
             </div>
+            <CardCompo />
         </>
     )
 }

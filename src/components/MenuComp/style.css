@@ -47,7 +47,6 @@
 .icn{
     width: 37px;
     height: 37px;
-    /* text-align: center; */
     border-radius: 5px;
     padding: 8px 10px 10px 10px;
     font-size: 18px;
@@ -57,19 +56,16 @@
     background: #2DA55F;
 }
 
-.text-icon {
+.text {
     color: #444444;
-    font-size: 10px;
-    /* display: flex;
-    justify-content: start;
-    align-items: center; */
+    font-size: 15px;
+    transform: translateX(5%);
 }
 
 .right-box-icon{
     width: 180px;
     display: flex;
     gap: 25px;
-    /* justify-content: space-between; */
 }
 
 

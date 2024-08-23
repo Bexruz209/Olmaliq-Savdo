@@ -23,6 +23,31 @@
     color: black;
     font-size: 14px;
     line-height: 19px;
+    width: auto;
+}
+
+.note2_text{
+    font-weight: 600;
+    color: black;
+    font-size: 14px;
+    line-height: 19px;
+    width: auto;
+}
+
+.note3_text{
+    font-weight: 600;
+    color: black;
+    font-size: 14px;
+    line-height: 19px;
+    width: auto;
+}
+
+.note4_text{
+    font-weight: 600;
+    color: black;
+    font-size: 14px;
+    line-height: 19px;
+    width: auto;
 }
 
 .note2{
@@ -43,6 +68,8 @@
     font-size: 14px;
     color: #2DA55F;
     border-bottom: 1px solid #2DA55F;
+    width: auto;
+    cursor: pointer;
 }
 
 .g{
@@ -50,4 +77,5 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }

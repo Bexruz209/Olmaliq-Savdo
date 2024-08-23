@@ -12,6 +12,17 @@
         "last_text": "Product search...",
         "love": "Beloved",
         "Comparison": "Comparison",
-        "Basket": "Basket"
+        "Basket": "Basket",
+        "Catalog":"Catalog"
+    },
+    "botton":{
+        "phone": "Telephone and Smartphones",
+        "book": "Office equipment and computers",
+        "tv": "Television and video equipment",
+        "lave": "Beauty and beauty",
+        "pli": "Household appliances",
+        "auto": "Auto equipment",
+        "Brands": "Brands",
+        "Products":"Discount Products"
     }
 }

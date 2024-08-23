@@ -12,6 +12,17 @@
         "last_text": "Mahsulot izlash...",
         "love": "Sevimli",
         "Comparison": "Taqqos",
-        "Basket": "Savat"
+        "Basket": "Savat",
+        "Catalog":"Katalog"
+    },
+    "botton":{
+        "phone": "Telefon  va Smartfonlar",
+        "book": "Orgtexnika va Kompyuterlar",
+        "tv": "Televizor va Videotexnikalar",
+        "lave": "Chiroy va go'zallik",
+        "pli": "Maishiy texnikalar",
+        "auto": "Avto jihozlar",
+        "Brands":"Brandlar",
+        "Products":"Chegirmadagi Mahsulotlar"
     }
 }
